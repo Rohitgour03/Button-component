@@ -1,0 +1,149 @@
+button {
+    padding: 0.5rem 1rem;
+    color: #3F3F3F;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Noto Sans JP';
+
+    line-height: 20px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+
+    background-color: #E0E0E0;
+    border: none;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+button:hover,
+button:focus {
+    background: #AEAEAE;
+}
+
+.btns-ctn .button-ctn {
+    min-width: 200px;
+}
+
+/* Outline variant */
+
+.outline {
+    color: #3D5AFE;
+    border: 1px solid #3D5AFE;
+    background: transparent;
+    box-shadow: none;
+}
+
+.outline:hover,
+.outline:focus {
+    background: rgba(41, 98, 255, 0.1);
+}
+
+/* Text variant */
+
+.text {
+    border: none;
+    color: #3D5AFE;
+    box-shadow: none;
+    background: transparent;
+}
+
+.text:hover,
+.text:focus {
+    background: rgba(41, 98, 255, 0.1);
+}
+
+/* Disable shadow */
+
+.disableShadow {
+    color: #FFF;
+    background: #3D5AFE;
+    box-shadow: none;
+}
+
+/* Disabled state */
+
+.disabled {
+    color: #9E9E9E;
+}
+
+/* Buttons with icons */
+
+button.icon-btn {
+    display: flex;
+    gap: 0.625rem;
+    align-items: center;
+    justify-content: space-between;
+    background: #3D5AFE;
+    color: #fff;
+}
+
+
+/* Styles for the size */
+.sm {
+    color: #FFF;
+    background: #3D5AFE;
+    padding: 0.375em 0.75em;
+}
+
+.md {
+    color: #FFF;
+    background: #3D5AFE;
+    padding: 0.5em 1em;
+}
+
+.lg {
+    color: #FFF;
+    background: #3D5AFE;
+    padding: 0.6875em 1.375em;
+}
+
+/* ************** Color Styles ************** */
+
+.default {
+    background: #E0E0E0;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+.default:hover,
+.default:focus {
+    background: #AEAEAE;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+.primary {
+    color: #FFF;
+    background: #2962FF;
+    box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+}
+
+.primary:hover,
+.primary:focus {
+    background: #0039CB;
+    box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+}
+
+.secondary {
+    color: #FFF;
+    background: #455A64;
+    box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+}
+
+.secondary:hover,
+.secondary:focus {
+    background: #1C313A;
+    box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+}
+
+.danger {
+    color: #FFF;
+    background: #D32F2F;
+    box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+}
+
+.danger:hover,
+.danger:focus {
+    background: #9A0007;
+    box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+}
