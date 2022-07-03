@@ -38,7 +38,7 @@
 
 ## Overview
 
-![screenshot](./src/assets/Screenshot%202022-07-03%20at%2020-16-38%20Devchallenges.png)
+![screenshot](./src/assets/Screenshot%202022-07-03%20at%2021-18-38%20Devchallenges.png)
 
 ### Built With
 
