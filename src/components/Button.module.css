@@ -5,7 +5,7 @@ button {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    font-family: 'Noto Sans JP';
+    font-family: 'Noto Sans', sans-serif;
 
     line-height: 20px;
     text-align: center;
